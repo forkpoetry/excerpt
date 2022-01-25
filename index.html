@@ -1,37 +1,87 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/forkpoetry/excerpt/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Skip to content
+forkpoetry /
+excerpt
+Public
+forked from shannonkao/excerpt
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    Code
+    Pull requests
+    Actions
+    Projects
+    Wiki
+    Security
+    Insights
+    Settings
 
-### Markdown
+excerpt/index.html
+@HoloPollock
+HoloPollock Add Dark mode support
+2 contributors
+50 lines (46 sloc) 1.29 KB
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twilight Mirage Excerpt Generator</title>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet"> 
+    <style>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        html, body {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-```markdown
-Syntax highlighted code block
+        @media (prefers-color-scheme: dark) {
+          html, body {
+            background-color: #0f0f0f;
+            color: white;
+          }
+        }
 
-# Header 1
-## Header 2
-### Header 3
+        #name {
+            font-family: 'Karla', Calibri, sans-serif;
+            font-size: 24pt;
+        }
+        #nickname {
+            text-transform: capitalize;
+            font-family: 'Inconsolata', 'Lucida Console', Courier, monospace, sans-serif;
+            font-size: 72pt;
+            margin-bottom: 10px;
+        }
+        
+        .container {
+            max-width: 700px;
+            text-align: center;
+            margin-bottom: 120px;
+        }
+    </style>
+  </head>
+  <body>
+      <div class="container">
+        <div id="nickname"></div>
+        <div id="name"></div>
+      </div>
+    <script src="index.js"></script>
+  </body>
+</html>
 
-- Bulleted
-- List
+    © 2022 GitHub, Inc.
 
-1. Numbered
-2. List
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/forkpoetry/excerpt/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Loading complete
