@@ -30,7 +30,7 @@ function populateUrls() {
     urls.push('https://poetrydb.org/author/Frost/lines');
     urls.push('https://poetrydb.org/author/Tennyson/lines');
     urls.push('https://poetrydb.org/author/Keats/lines');
-    urls.push('https://poetrydb.org/author/Bronte/lines');
+    urls.push('https://poetrydb.org/author/Emerson/lines');
     
     return urls;
 }
