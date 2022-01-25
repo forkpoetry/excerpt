@@ -26,8 +26,8 @@ xhr.onload = (e) => {
 
 function populateUrls() {
     let urls = [];
-    urls.push('https://poetrydb.org/author,linecount/Shakespeare;14/lines');
-    urls.push('https://poetrydb.org/author/Dickinson/lines');
+    urls.push('https://poetrydb.org/author/Cummings/lines');
+    urls.push('https://poetrydb.org/author/Frost/lines');
     urls.push('https://poetrydb.org/author/Tennyson/lines');
     urls.push('https://poetrydb.org/author/Keats/lines');
     urls.push('https://poetrydb.org/author/Bronte/lines');
